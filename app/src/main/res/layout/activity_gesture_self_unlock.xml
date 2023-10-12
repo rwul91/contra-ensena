@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/unlock_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:clipToPadding="false"
+    android:orientation="vertical"
+    android:backgroundTint="#434EF6">
+
+    <include
+        layout="@layout/layout_toolbar"
+        android:visibility="gone"/>
+
+
+    <RelativeLayout
+        android:id="@+id/top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:gravity="center"
+        android:background="#ffffff">
+
+
+        <TextView
+            android:id="@+id/lock_tip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/titulo_1"
+            android:fontFamily="@font/cooperfiveopti_black"
+            android:textColor="#FF791C"
+            android:textSize="32sp"
+            app:fontStyle="normal" />
+
+        <TextView
+            android:id="@+id/lock_tip2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lock_tip"
+            android:gravity="center"
+            android:text="@string/titulo_2"
+            android:fontFamily="@font/cooperfiveopti_black"
+            android:textColor="#E71C26"
+            android:textSize="36sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/menu"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:layout_marginTop="-30dp"
+        android:background="@drawable/radius">
+        <TextView
+            android:id="@+id/contrase"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:text="@string/titulo_radius"
+            android:fontFamily="@font/giogia"
+            android:textColor="#FFFFFF"
+            android:textSize="36sp" />
+
+    </RelativeLayout>
+
+
+    <com.lzx.lock.widget.LockPatternView
+
+        android:id="@+id/unlock_lock_view"
+        android:layout_gravity="center|bottom"
+        android:layout_width="290dp"
+        android:layout_height="293dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="50dp" />
+
+    <include
+        layout="@layout/nueva_actividad"
+        />
+</LinearLayout>
+

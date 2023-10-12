@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">Contraenseña</string>
+    <string name="titulo_1">CONTRA</string>
+    <string name="titulo_2">ENSEÑA</string>
+    <string name="titulo_radius">CONTRASEÑA</string>
+    <string name="nueva_actividad">Nueva Actividad</string>
+    <string name="lock_first_btn" formatted="false">Protección (%s)</string>
+    <string name="lockscreen_access_pattern_cell_added">Celda agregada</string>
+    <string name="lockscreen_access_pattern_start">Dibuja el patrón de desbloqueo</string>
+    <string name="lockscreen_access_pattern_detected">El patrón ha sido guardado</string>
+    <string name="lockscreen_access_pattern_cleared">El patrón ha sido eliminado</string>
+    <string name="lock_recording_intro_header">Establece el patrón de desbloqueo de la aplicación</string>
+    <string name="lock_settings_help_how_to_record">Cómo dibujar un patrón de desbloqueo</string>
+    <string name="lock_recording_incorrect_too_short">Debes conectar al menos 4 puntos.</string>
+    <string name="lock_pattern_entered_header">Patrón registrado</string>
+    <string name="lock_need_to_confirm">Dibuja el patrón de nuevo para confirmar</string>
+    <string name="lock_need_to_unlock_wrong">El patrón no coincide. Por favor, inténtalo de nuevo.</string>
+    <string name="password_gestrue_tips">Dibuja el patrón para desbloquear</string>
+    <string name="password_error_count">El patrón no coincide. Por favor, inténtalo de nuevo.</string>
+    <string name="lock_draw_unlock_pattern">Dibuja el patrón de desbloqueo</string>
+    <string name="lock_enter_pin_code">Ingresa una contraseña numérica</string>
+    <string name="lock_pattern_confirmed_header">Patrón confirmado</string>
+    <string name="num_create_text_01">Ingresa una contraseña de 4 dígitos para desbloquear</string>
+    <string name="num_create_text_02">Ingresa de nuevo para confirmar</string>
+    <string name="num_create_text_03">La contraseña no coincide, por favor inténtalo de nuevo</string>
+    <string name="number_1">1</string>
+    <string name="number_2">2</string>
+    <string name="number_3">3</string>
+    <string name="number_4">4</string>
+    <string name="number_5">5</string>
+    <string name="number_6">6</string>
+    <string name="number_7">7</string>
+    <string name="number_8">8</string>
+    <string name="number_9">9</string>
+    <string name="number_0">0</string>
+    <string name="password_short">Por favor, ingresa al menos 4 caracteres.</string>
+    <string-array name="lock_time_array">
+        <item>15 segundos</item>
+        <item>30 segundos</item>
+        <item>1 minuto</item>
+        <item>3 minutos</item>
+        <item>5 minutos</item>
+        <item>10 minutos</item>
+        <item>30 minutos</item>
+        <item>Inmediatamente</item>
+    </string-array>
+    <string name="dialog_tip">Tu versión de Android es mayor o igual que Android 5.0, Contraenseña necesita obtener el permiso "Uso de aplicaciones".</string>
+    <string name="shubham_tyagi">TechX</string>
+    <string name="github_https_github_com_subhamtyagi"></string>
+    <string name="upstream_developer">Desarrollado por</string>
+    <string name="up_stream_deve_name_espoir">TechX</string>
+    <string name="github_https_github_com_espoir_x">techx.com</string>
+    <string name="welcome_to_the_app_lock">Bienvenido a Contraenseña</string>
+    <string name="reset">Restablecer</string>
+    <string name="create_pattern">Crear patrón</string>
+    <string name="please_draw_your_pattern">Por favor, dibuja tu patrón</string>
+    <string name="identity_confirmation">Confirmación de Identidad</string>
+    <string name="search_application">Buscar aplicaciones</string>
+    <string name="settings">Ajustes</string>
+    <string name="lock_settings">Ajustes de Bloqueo</string>
+    <string name="lock_immediately_after_locking_the_screen">Bloquear la aplicación inmediatamente después de bloquear el teléfono</string>
+    <string name="open">Abrir</string>
+    <string name="change_the_password">Cambiar el patrón</string>
+    <string name="show_pattern">Mostrar patrón</string>
+    <string name="hide_pattern">Ocultar patrón</string>
+    <string name="about_me">Acerca de Mí</string>
+    <string name="go_to_give_permission">Conceder Permiso</string>
+    <string name="warning">Advertencia</string>
+    <string name="search_applications">Buscar aplicaciones...</string>
+    <string name="search_for">Buscar...</string>
+    <string name="take_a_photo">Selfie de Intruso</string>
+    <string name="_1_minute">1 minuto</string>
+    <string name="apps">Aplicaciones</string>
+    <string name="accessibility_service_description">Este permiso solo se utiliza para bloquear las aplicaciones</string>
+    <string name="accessibility_service_name">Bloqueo de Aplicaciones</string>
+    <string name="lock_type">Tipo de Bloqueo</string>
+    <string name="pattern_is_required">Se requiere un patrón cuando se abren las aplicaciones bloqueadas</string>
+    <string name="pattern_is_not_required">No se requiere un patrón cuando se abren las aplicaciones bloqueadas</string>
+    <string name="intruder_selfie">Selfie de Intruso</string>
+    <string name="vibrate">Vibración</string>
+</resources>
