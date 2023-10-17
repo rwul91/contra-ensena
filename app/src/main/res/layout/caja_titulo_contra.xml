@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.AppBarLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layout_marginTop="-40dp"
+    android:layout_width="wrap_content"
+    android:background="@drawable/radius"
+    android:layout_height="66dp">
+
+    <RelativeLayout
+        android:id="@+id/menu"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:background="@drawable/radius">
+        <TextView
+            android:id="@+id/contrase"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:text="@string/titulo_radius"
+            android:fontFamily="@font/giogia"
+            android:textColor="#FFFFFF"
+            android:textSize="36sp" />
+
+    </RelativeLayout>
+
+</android.support.design.widget.AppBarLayout>

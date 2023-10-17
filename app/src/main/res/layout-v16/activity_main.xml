@@ -4,7 +4,7 @@
               xmlns:app="http://schemas.android.com/apk/res-auto"
               android:layout_width="match_parent"
               android:layout_height="match_parent"
-    android:background="#434EF6"
+              android:background="#434EF6"
               android:orientation="vertical">
 
     <include
@@ -27,14 +27,15 @@
                 android:id="@+id/lock_tip"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:gravity="left"
+                android:gravity="start"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="0dp"
                 android:text="@string/titulo_1"
                 android:fontFamily="@font/cooperfiveopti_black"
                 android:textColor="#FF791C"
                 android:textSize="16sp"
-                app:fontStyle="normal" />
+                app:fontStyle="normal"
+                android:layout_marginStart="10dp" />
 
             <TextView
                 android:id="@+id/lock_tip2"
@@ -42,11 +43,12 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/lock_tip"
                 android:layout_marginLeft="10dp"
-                android:gravity="left"
+                android:gravity="start"
                 android:text="@string/titulo_2"
                 android:fontFamily="@font/cooperfiveopti_black"
                 android:textColor="#E71C26"
-                android:textSize="16dp" />
+                android:textSize="16sp"
+                android:layout_marginStart="10dp" />
 
 
         <ImageView
@@ -57,7 +59,9 @@
             android:layout_marginRight="10dp"
             android:layout_marginTop="0dp"
             android:layout_alignParentRight="true"
-            android:src="@drawable/group_ico"/>
+            android:src="@drawable/group_ico"
+            android:layout_marginEnd="10dp"
+            android:layout_alignParentEnd="true" />
 
         <View
             android:id="@+id/line"
@@ -86,23 +90,26 @@
             android:paddingRight="10dp"
             android:textColorHint="#9F9F9F"
             android:textSize="14sp"
-            android:visibility="gone"/>
+            android:visibility="gone"
+            android:drawableStart="@drawable/ic_search" />
     </RelativeLayout>
 
     <include layout="@layout/box_tittle_list" />
     <android.support.design.widget.TabLayout
         android:id="@+id/tab_layout"
+        android:contentDescription="Hola"
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:background="#434EF6"
         app:tabTextColor="#fff"
-        app:tabIndicatorColor="#FFF"
+        app:tabIndicatorColor="#fff"
         app:tabMode="fixed"/>
 
     <android.support.v4.view.ViewPager
         android:id="@+id/view_pager"
         android:padding="5dp"
         android:layout_width="match_parent"
+        android:contentDescription="Desliza para navegar entre las páginas"
         android:layout_height="match_parent" >
 
     </android.support.v4.view.ViewPager>

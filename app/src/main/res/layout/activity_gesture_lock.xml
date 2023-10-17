@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center_horizontal"
+    android:background="#434EF6"
     android:orientation="vertical">
 
     <include
@@ -13,49 +14,32 @@
 
     <RelativeLayout
         android:id="@+id/top_layout"
-        android:layout_width="match_parent"
-        android:layout_height="226dp"
-        android:background="#2DAC7C">
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#fff">
 
-        <ImageView
-            android:id="@+id/btn_back"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_marginTop="10dp"
-            android:adjustViewBounds="true"
-            android:padding="10dp"
-            android:src="@drawable/ic_back_2"/>
+        <include
+            android:id="@+id/lock_tip33"
+            layout="@layout/contra_ensena"/>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="50dp"
-            android:layout_toEndOf="@+id/btn_back"
-            android:layout_toRightOf="@+id/btn_back"
-            android:gravity="center"
-            android:text="@string/create_pattern"
-            android:textColor="@color/white"
-            android:textSize="14sp"/>
 
-        <ImageView
-            android:id="@+id/lock_icon"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
-            android:src="@drawable/ic_lock"/>
 
-        <TextView
-            android:id="@+id/lock_tip"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/lock_icon"
-            android:layout_marginTop="10dp"
-            android:gravity="center"
-            android:text="@string/please_draw_your_pattern"
-            android:textColor="@color/white"
-            android:textSize="14sp"/>
     </RelativeLayout>
 
+    <include
+        android:id="@+id/lock_tip33"
+        layout="@layout/caja_titulo_contra"/>
 
+    <TextView
+        android:id="@+id/lock_tip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lock_tip33"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/please_draw_your_pattern"
+        android:textColor="#000"
+        android:textSize="16dp"/>
     <com.lzx.lock.widget.LockPatternView
         android:id="@+id/lock_pattern_view"
         android:layout_width="290dp"

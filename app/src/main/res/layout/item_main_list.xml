@@ -2,8 +2,10 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:background="@color/white"
+                android:background="@drawable/radius_lista"
+    android:layout_marginTop="5dp"
                 android:orientation="horizontal">
+
 
     <ImageView
         android:id="@+id/app_icon"
@@ -23,6 +25,8 @@
         android:paddingLeft="10dp"
         android:textSize="16sp"
         android:layout_toStartOf="@+id/switch_compat"
+        android:textColor="@color/white"
+        android:textFontWeight="900dp"
         android:layout_toEndOf="@+id/app_icon"
         android:paddingStart="10dp"/>
 
@@ -30,19 +34,24 @@
         android:id="@+id/switch_compat"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_centerVertical="true"
         android:layout_gravity="center_vertical"
-        android:layout_marginRight="12dp"
-        android:button="@drawable/bg_checkbox_lock"
-        android:layout_alignParentEnd="true"
-        android:layout_marginEnd="12dp"/>
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
+        android:button="@drawable/bg_checkbox_lock" />
 
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="0.8dp"
-        android:layout_alignParentBottom="true"
-        android:layout_marginLeft="70dp"
-        android:background="@color/line_color"
-        android:layout_marginStart="70dp"/>
+    <CheckBox
+        android:id="@+id/switch_compat2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginEnd="88dp"
+        android:layout_marginRight="88dp"
+        android:button="@drawable/bg_checkbox_lock" />
+
 </RelativeLayout>

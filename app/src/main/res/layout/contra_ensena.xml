@@ -1,43 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.design.widget.AppBarLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_gravity="center|bottom"
-    android:gravity="bottom"
-    android:layout_marginTop="40dp"
+    android:layout_gravity="top"
+    android:gravity="top"
     android:layout_width="wrap_content"
     android:background="@drawable/radius_nueva_actividad"
     android:layout_height="wrap_content">
 
     <RelativeLayout
-        android:id="@+id/menu"
-        android:layout_width="145dp"
-        android:layout_height="66dp"
-        android:layout_gravity="center|bottom"
-        android:clickable="true"
-        android:focusable="true"
-        android:gravity="center">
-
-        <TextView
-            android:id="@+id/contrasea"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:fontFamily="@font/cooperfiveopti_black"
-            android:text="NUEVAS"
-            android:textColor="#E71C26"
-            android:textSize="13sp" />
+        android:id="@+id/top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:gravity="center"
+        android:background="#ffffff">
 
 
         <TextView
-            android:id="@+id/contrase"
+            android:id="@+id/lock_tip2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
+            android:text="@string/titulo_1"
             android:fontFamily="@font/cooperfiveopti_black"
-            android:layout_below="@+id/contrasea"
-            android:text="ACTIVIDADES"
+            android:textColor="#FF791C"
+            android:textSize="32sp"
+            app:fontStyle="normal" />
+
+        <TextView
+            android:id="@+id/lock_tip3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lock_tip2"
+            android:gravity="center"
+            android:text="@string/titulo_2"
+            android:fontFamily="@font/cooperfiveopti_black"
             android:textColor="#E71C26"
-            android:textSize="13sp" />
+            android:textSize="36sp" />
+
     </RelativeLayout>
 
 </android.support.design.widget.AppBarLayout>
